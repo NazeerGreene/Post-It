@@ -1,0 +1,37 @@
+
+body {
+  background-color: #F60D81;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;
+ }
+
+ h1 {
+	 position: relative;
+	 text-align: center;
+	 top: 25px;
+}
+
+#newNote {
+  background-color: #F32C9C;
+  margin: 0 auto 0 auto;
+  border: 1px solid #000;
+  outline: none;
+  position: relative;
+  text-align: left;
+  resize: none;
+  left: 550px;
+  top: 100px;
+  width: 300px;
+  height: 150px;
+}
+ 
+ #post {
+	 position: absolute;
+	 margin: 1px;
+	 border: none;
+	 outline: none;
+	 left: 810px;
+	 top: 335px;
+	 background-color: #F32C9C;
+ }
