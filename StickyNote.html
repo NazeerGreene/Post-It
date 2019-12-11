@@ -8,11 +8,16 @@
   
   <body>
   
-    <div id="NotePage">
-      <h1 id="header">POST IT!</h1>
+     <h1 id="header">POST IT!</h1>
+	 
+	 <div id="NotePage">
 	  <textarea id="newNote" placeholder="What's on your mind?"></textarea>
-	  <button id="post" type="sumbit">Post!</button>
+	  <button id="postButton" onclick="writeNote();"><b>Post !</b></button>
     </div>
+	
+	<div id="Posts">
+		<textarea class="note" placeholder="What's on your mind?"></textarea>
+	</div>
 	
     <script src="interact.js"></script>
   
