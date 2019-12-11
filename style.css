@@ -1,9 +1,8 @@
-
 body {
-  background-color: #F60D81;
-  font-family: 'Oswald', 'Futura', sans-serif;
-  margin: 0; 
-  padding: 0;
+  	margin: 0; 
+  	padding: 0;
+  	font-family: 'Oswald', 'Futura', sans-serif;
+	background-color: #F60D81;
  }
 
  h1 {
@@ -12,26 +11,57 @@ body {
 	 top: 25px;
 }
 
+
+#NotePage {
+	 margin: 10px;
+	 border: 10px;
+	 padding: 5px;
+	 width: 400px;
+	 float: left;
+ }
+ 
+#Posts {
+	 margin: 10px;
+	 border: 10px;
+	 padding: 5px;
+	 float: left;
+ }
+ 
+ 
 #newNote {
-  background-color: #F32C9C;
-  margin: 0 auto 0 auto;
-  border: 1px solid #000;
-  outline: none;
-  position: relative;
-  text-align: left;
-  resize: none;
-  left: 550px;
-  top: 100px;
-  width: 300px;
-  height: 150px;
+	position: relative;
+	background-color: #EBF518;
+	margin: 0 auto 0 auto;
+  	border: 1px solid #000;
+	padding: 10px;
+  	outline: none;
+  	text-align: left;
+  	resize: none;
+  	top: 100px;
+  	width: 300px;
+  	height: 150px;
 }
  
- #post {
-	 position: absolute;
-	 margin: 1px;
-	 border: none;
-	 outline: none;
-	 left: 810px;
-	 top: 335px;
-	 background-color: #F32C9C;
+ #postButton {
+	position: relative;
+	margin: 0 auto 0 auto;
+	border: none;
+	outline: none;
+	width: 320px;
+	top: 110px;
+	background-color: #EBF518;
+	border-radius: 8px;
+ }
+ 
+ .note {
+	position: relative;
+	margin: 1px;
+	border: 1px solid #000;
+	outline: none;
+	padding: 10px;
+	resize: none;
+	top: 50px;
+	width: 250px;
+	height: 200px;
+	background-color: #EBF518;
  }
